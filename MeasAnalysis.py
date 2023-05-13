@@ -1,8 +1,9 @@
 """
-Goal Data Analysis Code for Project 3
+Photon Count Data Analysis 
 
 Purpose: 
-    - This code will read in the data generated from a Poisson distribution
+    - This code will read in the data generated from a Poisson distribution, and through the use of multiple methods, attemmpt to estimate the rate parameter of the data given it is modeled as a Poisson.
+    - The resulting estimation can then be used to 
     - You'll find several print statements throughout the code below, those are generally used to help troubleshoot while writing code, but they are left in the event you need to also troubleshoot the results you get
 
 Author: @aelieber1
@@ -22,7 +23,7 @@ from scipy.special import gammaln
 from tabulate import tabulate
 from prettytable import PrettyTable
 
-# main function for our CookieAnalysis Python code
+# main function for our Photon Data Analysis Python code
 if __name__ == "__main__":
    
     """ Read in data file name from commandline prompt """

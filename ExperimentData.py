@@ -11,6 +11,8 @@ Code Adapted from these sources:
     - @crogan PHSX815 Github Week 1 & 2
     - Documentation for Numpy Poisson Random Sampling
     - Photodetection Source
+    https://www.gentec-eo.com/blog/how-many-photons-are-produced-in-a-laser-pulse
+    
 """
 # importpackages
 import numpy as np
@@ -47,7 +49,7 @@ if __name__ == "__main__":
     detect_eff = 0.9
     
     # default measurement time (in seconds)
-    Tmeas = 0.000000000000000000001 # 0.001 attosecondsß
+    Tmeas = 0.000000000000000000001 # 0.001 attoseconds
 
     # default number of measurements which corresponds to games since we take one measurement a game
     Nmeas = 1
