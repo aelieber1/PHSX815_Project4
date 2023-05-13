@@ -43,17 +43,16 @@ if __name__ == "__main__":
     # default laser power (Watts)
     laserpower = 0.1
     
-    # Detector efficiency [0,1]
+    # default Detector efficiency [0,1]
     detect_eff = 0.9
     
-    # Measurement time (seconds)
-    Tmeas = 0.00001
+    # default measurement time (in seconds)
+    Tmeas = 0.000000000000000000001 # 0.001 attosecondsß
 
     # default number of measurements which corresponds to games since we take one measurement a game
     Nmeas = 1
 
-    # default number of experiments, number of times we observe set number of games e.g. seasons. 
-    #(Ex. if Nmeas=10 and Nexp=5, then we will observe 10 games, 5 times over, observing 50 games total)
+    # default number of experiments (sets of measurements)
     Nexp = 1
 
     # output file defaults
